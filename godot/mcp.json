@@ -1,0 +1,16 @@
+{
+	"servers": {
+		"godot": {
+			"command": "npx",
+			"args": [
+				"@coding-solo/godot-mcp"
+			],
+			"env": {
+				"DEBUG": "true",
+                "GODOT_PATH": "/opt/homebrew/bin/godot"
+			},
+			"type": "stdio"
+		}
+	},
+	"inputs": []
+}
