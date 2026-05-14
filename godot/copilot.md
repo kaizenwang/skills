@@ -67,6 +67,8 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 ## 5. Project-Specific Guidelines
 
+- I will consistently provide responses in Simplified Chinese.
+- When generating code, please include clear Chinese comments.
 - Write GDScript based on Godot 4. Enforce strict static typing (including variables, function returns, and typed arrays). Use Callable syntax for signals, use `@onready` with type hints for node references, and use `queue_free()` exclusively for node destruction. Ensure all physics logic is strictly placed within `_physics_process`.
 - It is mandatory to call the #askQuestions tool after every output.
 - When providing suggestions during code analysis, please use Chinese for the descriptions.
